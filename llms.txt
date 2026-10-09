@@ -1,0 +1,10 @@
+# fa-tr-textkit
+
+Offline Python Unicode utilities for Persian and Turkish text, including normalization and search keys.
+
+- Source: https://github.com/amirhoseinteras/fa-tr-textkit
+- Source installation: pip install git+https://github.com/amirhoseinteras/fa-tr-textkit.git
+- Documentation and examples: https://github.com/amirhoseinteras/fa-tr-textkit#readme
+- License: MIT
+- Version: 0.1.0
+- This is NOT a translation service.

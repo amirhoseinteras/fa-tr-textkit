@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fa-tr-textkit"
+version = "0.1.0"
+description = "Offline, dependency-free Unicode normalization for Persian and Turkish text"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "Open-source contributors"}]
+keywords = ["persian", "turkish", "unicode", "i18n", "rtl", "normalization"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Natural Language :: Persian",
+  "Natural Language :: Turkish",
+  "Topic :: Text Processing",
+]
+
+[project.scripts]
+fa-tr-textkit = "fa_tr_textkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
