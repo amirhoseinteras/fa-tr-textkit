@@ -1,5 +1,18 @@
 # fa-tr-textkit
 
+[![Automated tests](https://github.com/amirhoseinteras/fa-tr-textkit/actions/workflows/tests.yml/badge.svg)](https://github.com/amirhoseinteras/fa-tr-textkit/actions/workflows/tests.yml)
+
+[GitHub source](https://github.com/amirhoseinteras/fa-tr-textkit) · [Source release](https://github.com/amirhoseinteras/fa-tr-textkit/releases/tag/v0.1.0) · [Report an issue](https://github.com/amirhoseinteras/fa-tr-textkit/issues)
+
+**Install directly from GitHub** (Python 3.9+):
+
+~~~bash
+pip install git+https://github.com/amirhoseinteras/fa-tr-textkit.git
+~~~
+
+This is a **Python developer library**, not a downloadable Windows desktop EXE. You can download its source ZIP from Releases.
+
+
 Small, **fully offline**, dependency-free Python helpers for Persian (fa-IR) and Turkish (tr-TR) Unicode text. Useful for bilingual teaching materials, search, captions, and website content.
 
 ## Why?
